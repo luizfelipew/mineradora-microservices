@@ -1,5 +1,6 @@
 package org.br.mineradora.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -21,6 +22,7 @@ public class USDBRL {
     private String bid;
     private String ask;
     private String timestamp;
-    private String create_date;
+    @JsonProperty("create_date")
+    private String createDate;
 
 }
