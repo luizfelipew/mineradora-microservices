@@ -5,5 +5,5 @@ import jakarta.enterprise.context.ApplicationScoped;
 import org.br.mineradora.entity.QuotationEntity;
 
 @ApplicationScoped
-public class QuatationRepository implements PanacheRepository<QuotationEntity> {
+public class QuotationRepository implements PanacheRepository<QuotationEntity> {
 }
